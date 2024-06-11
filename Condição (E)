@@ -1,18 +1,20 @@
 #include <stdio.h>
-
+//condição e(^)
 int main(){
-    //no caso de 5      v       ou        F       =   v
-    //no caso de 13     f       ou        f       =   f
-    float limite_min = 5.0, limite_max = 12.0, temperatura;
+    float notaf, freq;
 
-    printf("Iforme o valor da temperatura: ");
-    scanf("%f", &temperatura);
+    printf("Digite a primeira nota: ");
+    scanf("%f", &notaf);
 
-    if (temperatura > limite_max || temperatura < limite_min)
+    printf("frequencia: ");
+    scanf("%f", &freq);
+
+    //      V       e       V
+    if (notaf >= 6 && freq >= 75)
     {
-        printf("Alerta temperatura ultrapassada \n");
+        printf("Aprovado");
     }else{
-        printf("Temperatura OK\n");
+        printf("reprovado");
     }
     return 0;
 }

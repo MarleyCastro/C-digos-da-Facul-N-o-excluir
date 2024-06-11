@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    float valor;
+
+    printf("Digite o valor: ");
+    scanf("%f", &valor);
+
+    printf("o valor anterior e: %.2f \n", valor - 1);
+    printf("valor digitado: %.2f \n", valor);
+    printf("valor posterior: %.2f \n", valor + 1);
+
+    printf("Dobro do valor digitado: %.2f \n", valor * 2);
+
+    return 0;
+}

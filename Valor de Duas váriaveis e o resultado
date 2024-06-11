@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int num1 = 4, num2 = 8, total; 
+	total = num1 + num2;
+	printf("O valor total é: %d e o primeiro valor é: %d e o segundo valor é: %d", total, num1, num2);
+	return 0;
+}

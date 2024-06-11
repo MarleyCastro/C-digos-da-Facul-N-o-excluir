@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char nome[50];
+    float valor, valor_corrigido;
+
+    printf("Digite o nome: ");
+    scanf("%s", nome); // Removed the & before nome
+
+    printf("Digite o valor: ");
+    scanf("%f", &valor);
+
+    if (valor > 5000) {
+        valor_corrigido = valor * 1.10;
+    } else {
+        valor_corrigido = valor * 1.05;
+    }
+    
+    printf("Nome: %s\n", nome);
+    printf("Valor digitado: Rs%.2f\n", valor); // Corrected the format specifier
+    printf("Valor corrigido: Rs%.2f\n", valor_corrigido); // Corrected the format specifier
+
+    return 0;
+}

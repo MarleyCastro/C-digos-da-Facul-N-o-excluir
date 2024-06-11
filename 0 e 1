@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int x = 10, y = 5, z = 7, k = 7;
+
+    printf("1 verdadeiro\n ");
+    printf("0 falso \n");
+
+    printf("\n Valor de x = %d", x);
+    printf("Valor de y = %d \n", y);
+    printf("Valor de z = %d", z);
+    printf("valor de k = %d \n", k);
+
+    printf("\n exemplo 1: x > y: %d", x > y );
+    printf("\n exmplo 2: x < y: %d", x < y);
+
+    printf("\n exemplo 3: z == k : %d", z == k );
+    printf("\n exemplo 4: z != k : %d", z != k );
+
+    printf("\n exemplo 6: z <= k : %d", z <= k );
+    printf("\n exemplo 7: z >= k : %d", z >= k );
+    
+    system("\n pause");
+    
+    return 0;
+    
+}

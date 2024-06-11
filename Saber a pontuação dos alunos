@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main() {
+	setlocale(LC_ALL,"Portuguese");
+	
+	int pontuacao1, pontuacao2;
+	
+	printf("Digite a primeira pontuação:");
+	scanf("%d", &pontuacao1);
+	
+	printf("Digite a segunda pontuação:");
+	scanf("%d", &pontuacao2);
+	
+	int media = (pontuacao1 + pontuacao2) / 2; // Corrigindo a fórmula da média
+	
+	if(media >= 3500) {
+		printf("Aluno aprovado.\n");
+	} else if (media >= 2000) { // Corrigindo a estrutura do if-else
+		printf("Aluno vai fazer substitutiva.\n");
+	} else {
+		printf("Aluno reprovado.\n");
+	}
+	
+	return 0;
+}

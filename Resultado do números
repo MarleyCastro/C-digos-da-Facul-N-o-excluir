@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main() {
+	
+	setlocale(LC_ALL, "Portuguse");
+	
+	int num1, num2, total;
+	
+	printf("digite o primeiro valor :");
+	
+	scanf("%d", &num1, num2);
+	
+	printf("o primeiro valor digitado e: %d", num1);
+	
+	return 0;
+}

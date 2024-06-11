@@ -1,0 +1,25 @@
+#include stdio.h
+
+int main(){
+
+    int valor1, valor2;
+    int resp_soma, resp_subtracao, resp_multiplicacao, resp_divisao;
+
+    printf(digite o primeiro valor);
+    scanf(%d, &valor1);
+
+    printf(digite o segundo valor );
+    scanf(%d, &valor2);
+
+    resp_soma = valor1 + valor2;
+    resp_subtracao = valor1 - valor2;
+    resp_divisao = valor1  valor2;
+    resp_multiplicacao = valor1  valor2;
+
+    printf(o resultado da soma %d n, resp_soma);
+    printf(o resultado da subtracao %d n, resp_subtracao);
+    printf(o resultado da divisao %d n, resp_divisao);
+    printf(o resultado da multiplicacao %d n, resp_multiplicacao);
+
+    return 0;
+}

@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(){
+    setlocale(LC_ALL, "Portuguese"); 
+
+    int num1, num2, i;
+
+    printf("Digite o 1° valor: ");
+    scanf("%d", &num1);
+
+    printf("Digite o segundo valor: ");
+    scanf("%d", &num2);
+
+    if (num1 > num2) {
+        for (i = 3; i > 0; i--) {
+            printf("O primeiro valor precisa ser menor que o segundo. Restam %d chances. Digite novamente: ", i);
+            scanf("%d", &num1);
+            if (num1 < num2) {
+                printf("Digitação correta\n");
+                break;  
+            }
+        }
+        if (num1 > num2) {
+            printf("Você excedeu o número de tentativas. O primeiro valor ainda é maior que o segundo.\n");
+        }
+    } else {
+        printf("Digitação correta\n");
+    }
+
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    int numero;
+
+    printf("digite um numero: ");
+    scanf("%d", &numero);
+
+    numero >= 0 ? printf("numero positivo") : printf("numero negativo");
+
+    printf("o novo valor de numero e: %d", numero);
+
+    return 0;
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(){
+    int total, idade, ano;
+
+    printf("Qual o ano atual:");
+    scanf("%d", &ano);
+
+    printf("Qual e a idade:");
+    scanf("%d", &idade);
+
+    total = idade - ano;
+
+    printf("o seu nascimento e: %d", total);
+
+    return 0;
+    
+}

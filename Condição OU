@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(){
+    //no caso de 5      v       ou        F       =   v
+    //no caso de 13     f       ou        f       =   f
+    float limite_min = 5.0, limite_max = 12.0, temperatura;
+
+    printf("Iforme o valor da temperatura: ");
+    scanf("%f", &temperatura);
+
+    if (temperatura > limite_max || temperatura < limite_min)
+    {
+        printf("Alerta temperatura ultrapassada \n");
+    }else{
+        printf("Temperatura OK\n");
+    }
+    return 0;
+}

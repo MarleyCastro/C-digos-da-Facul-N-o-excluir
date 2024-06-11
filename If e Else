@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+    float orcamento;
+    printf("Digite o valor do orcamento para comprar o carro: \n");
+    scanf("%f", &orcamento);
+
+    if (orcamento >= 50000) {
+        printf("\n Joao e Maria possuem orcamento para comprar um carro novo, pois seu orcamento e de %.2f\n", orcamento);
+    } else {
+        printf("\n Joao e Maria irao optar por um carro usado, pois seu orcamento ficou em %.2f\n", orcamento);
+    }
+    
+    system("pause");
+    return 0;
+}

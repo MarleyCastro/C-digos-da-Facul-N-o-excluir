@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main() {
+	
+	setlocale(LC_ALL, "Portuguse");
+	
+	char nome [50], sobrenome[50];
+
+	printf("digite seu nome :");
+	
+	scanf("%s", nome);
+	
+	printf("digite o seu sobrenome:");
+	
+	scanf("%s", sobrenome);
+	
+	printf("o nome digitado e: %s %s", nome, sobrenome);
+	
+	
+	return 0;
+}

@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+#include <string.h>
+
+
+
+int main() {
+
+  char login[10];
+
+  char senha[10];
+
+
+
+  printf("Entre com seu login: \n");
+
+  scanf("%9s", login);
+
+
+
+  printf("Entre com sua senha : \n");
+
+  scanf("%9s", senha); 
+
+
+
+  if (strcmp(login, "aluno") == 0 && strcmp(senha, "teste01") == 0) {
+
+    printf("Bem-vindo aluno\n");
+
+  }
+
+  else {
+
+    printf("Logon Falhou!\n"); 
+
+  }
+
+  system("pause");
+
+   
+
+  return 0;
+
+}

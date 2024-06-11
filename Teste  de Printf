@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int mensagem() {
+	printf("olá pessoal");
+	return (0);
+}
+int main(){
+	mensagem();
+	printf("Aula muito boa");
+	return 0;
+}

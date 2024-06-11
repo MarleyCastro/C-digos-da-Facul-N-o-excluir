@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+    int teste;
+    printf("------TIPO DE BYTES------\n");
+    printf("char ........: %d bytes \n", sizeof(char));
+    printf("short ........: %d bytes \n", sizeof(short));
+    printf("int ..........: %d bytes \n", sizeof(int));
+    printf("long .........: %d bytes \n", sizeof(long));
+    printf("float..........: %d bytes \n", sizeof(float));
+    printf("doble .........: %d bytes \n", sizeof (double));
+    printf("long double.....: %d bytes \n", sizeof (long double));
+    printf("\n TAMANHO DO TESTE: %d \n \n", sizeof teste);
+
+    return 0;
+}

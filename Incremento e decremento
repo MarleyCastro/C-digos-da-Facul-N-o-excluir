@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(){
+    int x = 100;
+
+printf("valor inicial de x e: %d \n", x);
+
+    printf("\n--------------Pos Incremento--------------");
+    printf("Valor de x na mesma linha do pos incremento: %d \n ", x++);
+    printf("Valor de x na linha seguinte ao pos incremento: %d \n", x);
+
+    printf("\n-------------Pre incremento------------");
+    printf("Valor de x na mesma linha do pre incremento: %d \n", ++x);
+
+    return 0;
+}

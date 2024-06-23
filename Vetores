@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    float notas[5] = {7.0, 8.0, 9.5, 9.9, 5.23};
+    int i;
+
+    printf("Exibindo valores do vetor \n \n");
+
+    for (i = 0; i < 5; i++) {
+        printf("notas[%d]= %.2f \n", i, notas[i]);
+    }
+    return 0;
+}

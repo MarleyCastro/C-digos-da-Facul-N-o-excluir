@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(){
+    int n, i;
+    
+    for (i = 0; ; i++){
+        //printf("CICLO INFINITO \n");
+
+        printf("%d - Digite um nuemro inteiro: \n", i);
+        //scanf("%d", &n);
+
+        if (i == 500)
+        {
+            printf("Saindo do ciclo for \n");
+            break;
+        }
+        
+    }
+    printf("Fim do Programa");
+    return 0;
+}

@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    int n, i;
+    
+    for (i = 0; ; i++){
+        
+
+        printf("%d - Digite um nuemro inteiro: \n", i);
+                
+    }
+    printf("Fim do Programa");
+    return 0;
+}
